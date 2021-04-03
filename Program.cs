@@ -13,7 +13,7 @@ namespace MilhasParaKm
            entrada = Console.ReadLine(); 
 
            milhas = Convert.ToDouble(entrada);
-           quilometros = milhas * 1609;
+           quilometros = milhas * 1.609;
 
            Console.WriteLine("\nEquivalente em quilômetros: ");
            Console.WriteLine($"{quilometros:N2} km");
